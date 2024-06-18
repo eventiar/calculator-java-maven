@@ -9,5 +9,7 @@ public class AdditionTest {
     public void testCalculate() {
         Calculator calculator = new Addition();
         assertEquals("Addition should add two numbers", 5, calculator.calculate(2, 3), 0.001);
+        //test
     }
+    
 }
